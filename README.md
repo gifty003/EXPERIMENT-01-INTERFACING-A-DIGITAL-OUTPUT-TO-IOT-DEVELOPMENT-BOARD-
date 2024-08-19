@@ -1,8 +1,8 @@
-###  DATE: 
+###  DATE: 19/08/2024
 
-###  NAME: 
-###  ROLL NO :
-###  DEPARTMENT: 
+###  NAME: GIFTSON RAJARATHINAM N
+###  ROLL NO :212222233002
+###  DEPARTMENT: AI-DS
 
 
 
@@ -86,13 +86,17 @@ The main features of LPC2148 include the following.
 
 
 ## STM 32 CUBE PROGRAM :
-
-
-
+```
+HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_RESET);
+HAL_Delay(1000);
+HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_SET);
+HAL_Delay(1000);
+```
 
 
 ## OUTPUT  :
- 
+ ![Screenshot 2024-08-19 092317](https://github.com/user-attachments/assets/2cd3c0c0-daf4-4fcc-8fea-19f1556626d8)
+
  
  
  
